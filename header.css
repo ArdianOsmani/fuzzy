@@ -1,0 +1,81 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 65px;
+  background-color: rgb(243, 240, 240);
+  border: 1px solid rgb(237, 233, 233);
+  align-items: center;
+  padding: 0px 20px;
+  position: fixed;
+  top: 0; 
+  width: 100%; 
+  z-index: 1000;
+}
+
+.fuzzy {
+ width: 270px;
+ text-align: right;
+ padding-right: 10px;
+}
+
+.fuzzy-style {
+  font-family:  Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(96, 96, 96);
+}
+
+.text-settings {
+ flex: 1;
+ padding-left: 50px;
+}
+
+.text-style {
+  color: gray;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+}
+
+
+
+.searchbar-icons{
+  display: flex;
+  flex-direction: row;
+  width: 480px;
+}
+
+.searchbar {
+  height: 20px;
+  font-size: 11px;
+  outline: none;
+  padding-left: 10px;
+  margin-right: 5px;
+  border: none;
+  max-width: 150px;
+}
+
+.icon-settings {
+  height: 20px;
+  width: 20px;
+  margin-right: 3px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.search-lens {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(193, 193, 193);
+  border-radius: 2px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.lens {
+  height: 16px;
+  width: 16px;
+  transform: scaleX(-1);
+  margin-right: 5px;
+  cursor: pointer;
+}
+
